@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grade Calculator</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+<h1>Grade Calculator</h1>
+    <table border="5" color="#dc143c" class="table table-striped">
+        <tr>
+            <td>Homework Grades <br><input type="text" value="30,90" id="homework"></td>
+            <td>Weight <br><input type="text" value="20" id="hwWeight"></td>
+        </tr>
+        <tr>
+            <td>Classwork Grades <br><input type = "text" value="80,90" id="classwork"></td>
+            <td>Weight <br><input type="text" value="20" id="cwWeight"></td>
+        </tr>
+        <tr>
+            <td>Test Grades <br><input type = "text" value="30,90" id="tests"></td>
+            <td>Weight <br><input type="text" value="20" id="tWeight"></td>
+        </tr>
+        <tr>
+            <td>Participation Grade <br><input type = "text" value="30,90" id="participation"></td>
+            <td>Weight <br><input type="text" value="20" id="pWeight"></td>
+        </tr>
+        <tr>
+            <td>Project Grade <br><input type = "text" value="30,90" id="projects"></td>
+            <td>Weight <br><input type="text" value="20" id="prWeight"></td>
+        </tr>
+    </table>
+
+<button onclick ="currentGrade()" class="w3-button w3-black">Current Grade: </button>
+
+<div id="currentGrade">Final Grade: </div>
+
+
+<h2>Final Grade Calculator</h2>
+<table border="5" color="dc143c" class="table table-striped">
+    <tr>
+        <td>Class Grade Wanted <br><input type="text" id="gradeWanted"></td>
+        <td>Final Grade Weight <br><input type="text" id="finalWeight"></td>
+    </tr>
+</table>
+
+<button onclick ="calculateFinalGrade()" class="w3-button w3-black">Calculate Grade Needed</button>
+
+<div id="calculateFinalGrade">Final Grade Required: </div>
+
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+    color: maroon;
+}
+
+h2 {
+    text-align: center;
+    color: maroon;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+#calculateFinalGrade {
+    font-size: large;
+    color: maroon;
+    text-align: center;
+}
+
+#currentGrade {
+    font-size: large;
+    text-align: center;
+    color: maroon;
+}
